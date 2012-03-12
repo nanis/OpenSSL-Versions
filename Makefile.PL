@@ -12,9 +12,13 @@ WriteMakefile(
       ? ('LICENSE'=> 'perl')
       : ()),
     PL_FILES            => {},
+    BUILD_REQUIRES      => {
+        'Test::More' => '0.88',
+    },
     PREREQ_PM => {
-        'Test::More' => 0,
+        'Try::Tiny'      => 0,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'OpenSSL-Versions-*' },
 );
+
