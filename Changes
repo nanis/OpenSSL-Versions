@@ -1,5 +1,7 @@
 Revision history for OpenSSL-Versions
 
-0.01    Date/time
-        First version, released on an unsuspecting world.
+0.001   2012/03/12
+
+        First version that correctly parses OPENSSL_VERSION_NUMBER in all
+        available versions of OpenSSL
 
