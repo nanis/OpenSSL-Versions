@@ -16,7 +16,6 @@ WriteMakefile(
         'Test::More' => '0.88',
     },
     PREREQ_PM => {
-        'Try::Tiny'      => 0,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'OpenSSL-Versions-*' },

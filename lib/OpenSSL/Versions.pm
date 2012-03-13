@@ -5,9 +5,8 @@ use strict;
 use warnings;
 use Carp;
 use Exporter qw( import );
-use Try::Tiny;
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 $VERSION = eval $VERSION;
 
 our @EXPORT = ();
